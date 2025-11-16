@@ -23,7 +23,7 @@
 
 5. Конец
 ### Блок-схема
-![Блок схема алгоритма](lab6.drawio.png)
+![Блок схема алгоритма](lab6.drawio)
 ## 2. Реализация программы:
  #define _CRT_SECURE_NO_WARNINGS
  #include <stdio.h>
