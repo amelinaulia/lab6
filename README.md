@@ -25,29 +25,29 @@
 ### Блок-схема
 ![Блок схема алгоритма](lab5.drawio.png)
 ## 2. Реализация программы:
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <locale.h>
-#include <math.h>
-
-int main() {
-    setlocale(LC_CTYPE, "RUS");
-    double x, y, a;
-    printf("Введите x: ");
-    scanf("%lf", &x);
-    printf("Введите y: ");
-    scanf("%lf", &y);
-    double s1 = x * x + y * y;
-    double s2 = y * y * y - 2 * x * x;
-    a = (s1 < s2) ? s1 : s2;
-    a -= 4;
-    printf("Результат: %.6f\n", a);
-    printf("Где x = %.2f, y = %.2f\n", x, y);
-    printf("1 Варажение: %.2f\n", s1);
-    printf("2 Варажение: %.2f\n", s2);
-
-    return 0;
-}
+ #define _CRT_SECURE_NO_WARNINGS
+ #include <stdio.h>
+ #include <locale.h>
+ #include <math.h>
+ 
+ int main() {
+     setlocale(LC_CTYPE, "RUS");
+     double x, y, a;
+     printf("Введите x: ");
+     scanf("%lf", &x);
+     printf("Введите y: ");
+     scanf("%lf", &y);
+     double s1 = x * x + y * y;
+     double s2 = y * y * y - 2 * x * x;
+     a = (s1 < s2) ? s1 : s2;
+     a -= 4;
+     printf("Результат: %.6f\n", a);
+     printf("Где x = %.2f, y = %.2f\n", x, y);
+     printf("1 Варажение: %.2f\n", s1);
+     printf("2 Варажение: %.2f\n", s2);
+ 
+     return 0;
+ }
 ## 3. Результат работы программы
 ![Результат работы программы](image.png)
 ## 4. Информация о разработчике
